@@ -1,0 +1,5 @@
+c:\users\administrator\documents\visual studio 2010\Projects\SalaryInformationSystem\SalaryInformationSystem\bin\SalaryInformationSystem.dll
+c:\users\administrator\documents\visual studio 2010\Projects\SalaryInformationSystem\SalaryInformationSystem\bin\SalaryInformationSystem.pdb
+c:\users\administrator\documents\visual studio 2010\Projects\SalaryInformationSystem\SalaryInformationSystem\obj\Debug\SalaryInformationSystem.dll
+c:\users\administrator\documents\visual studio 2010\Projects\SalaryInformationSystem\SalaryInformationSystem\obj\Debug\SalaryInformationSystem.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\SalaryInformationSystem\SalaryInformationSystem\obj\Debug\SalaryInformationSystem.csprojResolveAssemblyReference.cache

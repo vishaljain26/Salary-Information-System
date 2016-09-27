@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="SalaryInformationSystem.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    </head>
+<body  style="height: 185px" background="Images/Horizon.jpg">
+    <form id="form1" runat="server">
+    <div style="height: 186px">
+        
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    <asp:Panel ID="Panel1" runat="server" BorderColor="Black" BorderStyle="Solid" 
+            Height="175px" BackImageUrl="~/Images/26.JPG">
+        
+                <asp:Label ID="Label1" runat="server" Text="SALARY INFORMATION SYSTEM" 
+                    style="position:absolute; top: 96px; left: 283px;" Font-Bold="True" 
+                    Font-Italic="False" Font-Names="Snap ITC" Font-Size="XX-Large" 
+                    Font-Strikeout="False" ForeColor="#FB3200"></asp:Label>
+        <asp:HyperLink ID="HyperLink1" runat="server" Text="Logout" 
+            style="position:absolute; top: 32px; left: 1075px;" Font-Bold="True" 
+            Font-Size="Large" NavigateUrl="~/Login.aspx" ForeColor="White"></asp:HyperLink>
+        <asp:HyperLink ID="HyperLink2" runat="server" 
+            style="position:absolute; top: 32px; left: 971px; width: 72px; height: 32px;" 
+            Font-Bold="True" Font-Size="Large" Font-Underline="True" ForeColor="White" 
+            NavigateUrl="~/Home.aspx">Home</asp:HyperLink>
+        <asp:ImageButton ID="ImageButton1" runat="server" 
+            style="position:absolute; top: 65px; left: 61px; height: 86px; width: 184px;" 
+            ImageUrl="~/Images/logo.png" PostBackUrl="~/Home.aspx" />
+    </asp:Panel>
+    </asp:ContentPlaceHolder>
+    </div>
+    <div style="position:absolute; top: 211px; left: 8px; width: 1193px;">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+     
+
+    </div>
+    </form>
+</body>
+</html>
